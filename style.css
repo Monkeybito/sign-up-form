@@ -43,3 +43,11 @@ label, input{
     display: block;
 }
 
+:focus{
+    border: 3px solid aqua;
+}
+
+:invalid{
+    box-shadow: 0 0 10px 5px lightcoral;
+}
+
